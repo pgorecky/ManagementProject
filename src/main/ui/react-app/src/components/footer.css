@@ -1,0 +1,19 @@
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #c2c2c2;
+  transform: translateY(0);
+  transition: transform 0.3s ease-out;
+}
+
+body.footer-expanded footer {
+  transform: translateY(-50px);
+}

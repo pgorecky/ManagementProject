@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS tasks (
   id INT AUTO_INCREMENT PRIMARY KEY,
   employee_id INT,
   title VARCHAR(255),
-  task_description VARCHAR(255),
+  task_description VARCHAR(65000),
   state VARCHAR(255),
   due_date DATE,
   created DATE,
